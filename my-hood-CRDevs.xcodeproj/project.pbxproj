@@ -12,6 +12,8 @@
 		83A503521C2A759900A100EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A503501C2A759900A100EC /* Main.storyboard */; };
 		83A503541C2A759900A100EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A503531C2A759900A100EC /* Assets.xcassets */; };
 		83A503571C2A759900A100EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A503551C2A759900A100EC /* LaunchScreen.storyboard */; };
+		83A503601C2A765700A100EC /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A5035F1C2A765700A100EC /* Post.swift */; };
+		83A503631C2A7DBA00A100EC /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A503621C2A7DBA00A100EC /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		83A503531C2A759900A100EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83A503561C2A759900A100EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83A503581C2A759900A100EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A5035F1C2A765700A100EC /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		83A503621C2A7DBA00A100EC /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		83A5034B1C2A759900A100EC /* my-hood-CRDevs */ = {
 			isa = PBXGroup;
 			children = (
+				83A503611C2A7D9300A100EC /* View */,
+				83A5035E1C2A761300A100EC /* Model */,
 				83A5034C1C2A759900A100EC /* AppDelegate.swift */,
 				83A5034E1C2A759900A100EC /* ViewController.swift */,
 				83A503501C2A759900A100EC /* Main.storyboard */,
@@ -62,6 +68,22 @@
 				83A503581C2A759900A100EC /* Info.plist */,
 			);
 			path = "my-hood-CRDevs";
+			sourceTree = "<group>";
+		};
+		83A5035E1C2A761300A100EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83A5035F1C2A765700A100EC /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		83A503611C2A7D9300A100EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83A503621C2A7DBA00A100EC /* PostCell.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A503601C2A765700A100EC /* Post.swift in Sources */,
 				83A5034F1C2A759900A100EC /* ViewController.swift in Sources */,
 				83A5034D1C2A759900A100EC /* AppDelegate.swift in Sources */,
+				83A503631C2A7DBA00A100EC /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

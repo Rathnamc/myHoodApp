@@ -21,7 +21,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
         var post = Post(imagePath: "", title: "Post1", description: "Post 1 Descripton")
         var post2 = Post(imagePath: "", title: "Post2", description: "Post 2 Descripton")
-        var post3 = Post(imagePath: "", title: "post3", description: "Post 3 Descroption")
+        var post3 = Post(imagePath: "", title: "Post3", description: "Post 3 Descroption")
         
         posts.append(post)
         posts.append(post2)

@@ -168,7 +168,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="cancelBtnPressed:" destination="cdx-Di-DHF" eventType="touchUpInside" id="7Cz-pp-OYq"/>
+                                            <action selector="cancelBtnPressed:" destination="cdx-Di-DHF" eventType="touchUpInside" id="yMr-lK-F9E"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -193,7 +193,7 @@
                                     <color key="titleColor" red="0.99803227186203003" green="0.76172494888305664" blue="0.00087985419668257236" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="addPicBtnPressed:" destination="cdx-Di-DHF" eventType="touchUpInside" id="lX4-ML-yrL"/>
+                                    <action selector="addPicBtnPressed:" destination="cdx-Di-DHF" eventType="touchUpInside" id="5D6-my-zdH"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Title" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gW4-a1-5Dt">
@@ -231,7 +231,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <action selector="makePostBtnPressed:" destination="cdx-Di-DHF" eventType="touchUpInside" id="lTd-g8-AQh"/>
+                                    <action selector="makePostBtnPressed:" destination="cdx-Di-DHF" eventType="touchUpInside" id="2IG-5P-AAf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -266,7 +266,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fE1-bO-WBA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="617" y="47"/>
+            <point key="canvasLocation" x="643" y="-4"/>
         </scene>
     </scenes>
     <resources>
